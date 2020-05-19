@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import FormData from "form-data"
 
 //Link to mongoDB backend server
 const BASE_URL = "https://info30005-pear.herokuapp.com";

@@ -1,0 +1,96 @@
+.join-main{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+#join-heading {
+    padding-top: 50px;
+    padding-bottom: 0;
+    text-align: center;
+    margin: 0;
+    color: #333333;
+}
+
+.join-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px 30px;
+    align-items: center;
+    min-width: 100%;
+    overflow-x: auto;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.topic-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 10%;
+    height: 10%;
+}
+
+.conversation-item {
+    /*background: white;*/
+    text-align: center;
+    margin: 10px 10px;
+    transition: transform 300ms ease 100ms;
+    border-radius: 30px;
+    border: none;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    max-height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    flex: 1 0 21%;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* remove the outline from button */
+button:focus {
+    outline:none;
+}
+
+.conversation-item-text {
+    display: inline-block;
+
+
+}
+
+.conversation-item:hover {
+    transform: scale(1.1) !important;
+}
+
+.btn-join{
+    text-align: center;
+    padding-top: 105px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 10px 10px;
+    background: white;
+    color: #333;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 70px;
+    transition: transform 300ms ease 100ms;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-join:hover {
+    transform: scale(1.1) !important;
+}
